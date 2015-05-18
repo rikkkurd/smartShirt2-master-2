@@ -40,7 +40,7 @@
         <item>Blue</item>
     </string-array>
     <string name="what_activity">Waarmee bent u nu bezig?</string>
-    <string name="title_activity_useractivity">useractivity</string>
+    <string name="title_activity_useractivity">user activity</string>
 
     <string name="hello_world">Hallo!</string>
     <string name="what_were_user_doing">Wat deed u op het moment dat de verkeerde houding werd gemeten?</string>
