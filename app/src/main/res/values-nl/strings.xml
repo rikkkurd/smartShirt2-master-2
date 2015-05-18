@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="app_name">BackUP app</string>
+    <string name="ble_not_supported">BLE wordt niet ondersteund</string>
+    <string name="label_data">Data:</string>
+    <string name="label_device_address">apparaat ID</string>
+    <string name="label_state">Status:</string>
+    <string name="no_data">Geen data beschikbaar</string>
+    <string name="connected">Verbonden</string>
+    <string name="disconnected">Ontkoppeld</string>
+    <string name="title_devices">Op zoek naar Smart shirt HMSoft</string>
+    <string name="error_bluetooth_not_supported">Bluetooth niet ondersteund</string>
+
+    <string name="unknown_device">Onbekend apparaat</string>
+    <string name="unknown_characteristic">Onbekende karakteristieken</string>
+    <string name="unknown_service">Onbekende service</string>
+
+    <!-- Menu items -->
+    <string name="menu_connect">Verbind met Smart shirt</string>
+    <string name="menu_disconnect">Ontkoppel Smart shirt</string>
+    <string name="menu_scan">Scan naar shirts</string>
+    <string name="menu_stop">Stop</string>
+    <string name="is_serial">klik op roze stip om meten te starten -></string>
+    <string-array name="roygbiv">
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+    </string-array>
+    <string name="what_activity">Waarmee bent u nu bezig?</string>
+    <string name="title_activity_useractivity">useractivity</string>
+
+    <string name="hello_world">Hallo!</string>
+    <string name="what_were_user_doing">Wat deed u op het moment dat de verkeerde houding werd gemeten?</string>
+    <string name="see_overview_button_text">Dagelijks overzicht</string>
+    <string name="select_activity_button_text">Selecteer activiteit</string>
+    <string name="button_initialize_app">start de data connectie met het shirt</string>
+    <string name="title_activity_user">Activiteiten</string>
+    <string name="title_activity_user_overview">Dagelijks overzicht</string>
+
+    <string name="activity_bed">Aan het bed werken</string>
+    <string name="activity_desk">Aan een bureau werken</string>
+    <string name="activity_walking">Lopen</string>
+    <string name="activity_patient">Patient begeleiden/tillen</string>
+    <string name="activity_machine">Bezig met apparatuur bediening</string>
+    <string name="activity_other">Overige</string>
+
+    <string name="drawer_open">Menu opened</string>
+    <string name="drawer_close">Menu closed</string>
+    <string name="action_settings">Instellingen</string>
+    <string name="Select_create_notification">Forceer notificatie</string>
+    <string name="badPostureDetected">Verkeerde lage rug houding gedetecteerd!</string>
+    <string name="Bed">Bed</string>
+    <string name="Desk">Buro</string>
+    <string name="Walking">Lopen</string>
+    <string name="Patient">Patient</string>
+    <string name="Machine">Machine</string>
+    <string name="Other">Overige</string>
+    <string name="Activityoverviewtopheadertext">Overzicht van de activiteiten van vandaag die tot lage rugpijn kunnen leiden:</string>
+
+    <!--if you want to change these values below go to userActivity.java as well and change the corrosponding texts as well-->
+
+    <string name="ActivityOptionsUserBed">Aan het bed werken</string>
+    <string name="ActivityOptionsUserDesk">Aan een bureau werken</string>
+    <string name="ActivityOptionsUserWalking">Lopen</string>
+    <string name="ActivityOptionsUserpatient">Patient begeleiden/tillen</string>
+    <string name="ActivityOptionsUserMachine">Bezig met de bediening van apparatuur</string>
+    <string name="ActivityOptionsUserOther">Overige</string>
+
+    <!--Notification texts-->
+    <string name="NotifationTitle">Verkeerde lage rug houding gedetecteerd!</string>
+    <string name="NotificationSubtitle">Geef je huidige activiteit aan</string>
+    <string name="NotificationTicker">Verkeerde houding</string>
+    <string name="YouSelectedToast">"U koos: "</string>
+    <string name="BadPostureTicker">Slechte houding</string>
+    <string name="SelectActivityNotificationText">Geef je huidige activiteit aan</string>
+    <string name="NoActivityDataYet">Geen data beschikbaar op dit moment, gebruik het shirt gedurende de dag en kom later op de dag terug om het overzicht te bekijken</string>
+    <string name="Back">"Terug"</string>
+    <string name="title_activity_desk_info">Meer info bureau</string>
+    <string name="info_activity_desk_info">Probeer recht te zitten en tegelijk de natuurlijke krommingen in uw rug te behouden. Zit met uw beide voeten gesteund op de grond (niet met benen over elkaar!). Een hoek van 90 graden in heup, knie, enkel is optimaal.  Uiteraard wil u af en toe uw houding wat veranderen, en dat is prima. Gebruik deze houdingsveranderingen als een pauze voor uw spieren, en let erop om niet langdurig met doorgezakte (gebogen) rug te zitten. "
+       </string>
+    <string name="title_activity_body_posture_info">Meer info lichaams houding</string>
+    <string name="info_activity_bodyPosture_info">Zorg ervoor dat uw rug zoveel mogelijk de natuurlijke kromming kan behouden. Pas de hoogte van de apparatuur, of van uzelf aan om dit mogelijk te maken. </string>
+    <string name="title_activity_helping_patient_info">meer info begeleiding</string>
+    <string name="infoHelpingPatient">Probeer uw rug zo recht mogelijk te houden en uw buik-en bekkenbodemspieren licht aan te spannen. Let hierbij wel op dat uw ademhaling normaal blijft. Hou de last zo dicht mogelijk bij uw lichaam. Vermijd steeds de combinatie van een buig- en draaibeweging in de rug.</string>
+    <string name="title_activity_bed_info">Meer info bed</string>
+    <string name="infoTextBedSide">Zet eerst het bed op de juiste hoogte. Probeer uw lage rug zo recht mogelijk te houden (buig indien nodig in uw heupen). Probeer tijdens het vooroverbuigen uw buik- en bekkenbodem spieren lichtjes aan te spannen, let wel op dat u normaal blijft doorademen. Vermijd zoveel mogelijk om uw rug gelijktijdig te buigen en te draaien.</string>
+    <string name="explaination_what_user_doing">Klik op het item in de lijst om deze te selecteren</string>
+    <string name="verbinding_herkend">klik eerst op de roze knop-></string>
+    <string name="overview_large_button_bottom">Bekijk het overzicht van vandaag</string>
+    <string name="calibrate_Now">Kalibreer nu</string>
+    <string name="StopCalibration">Kalibreren stoppen</string>
+    <string name="Calibration_button_text">Kalibreer nu</string>
+    <string name="help_text_calibration">Daarna op de knop hieronder om te kalibreren</string>
+</resources>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="app_name">BackUP app</string>
+    <string name="ble_not_supported">BLE is not supported</string>
+    <string name="label_data">Data:</string>
+    <string name="label_device_address">Device address:</string>
+    <string name="label_state">State:</string>
+    <string name="no_data">No data</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="title_devices">Searching for shirt</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+
+    <string name="unknown_device">Unknown device</string>
+    <string name="unknown_characteristic">Unknown characteristic</string>
+    <string name="unknown_service">Unknown service</string>
+
+    <!-- Menu items -->
+    <string name="menu_connect">Connect</string>
+    <string name="menu_disconnect">Disconnect</string>
+    <string name="menu_scan">Scan</string>
+    <string name="menu_stop">Stop</string>
+    <string name="is_serial">Serial Present:</string>
+    <string-array name="roygbiv">
+        <item >Red</item>
+        <item >Green</item>
+        <item >Blue</item>
+    </string-array>
+    <string name="what_activity">What activity were you doing?</string>
+    <string name="title_activity_useractivity">useractivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="what_were_user_doing">What were you doing, while a bad posture was measured?</string>
+    <string name="see_overview_button_text">see overview</string>
+    <string name="select_activity_button_text">select activity</string>
+    <string name="button_initialize_app">initialize app</string>
+    <string name="title_activity_user">Select activity</string>
+    <string name="title_activity_user_overview">Daily overview</string>
+
+    <string name="activity_bed">Standing next to a bed</string>
+    <string name="activity_desk">Working at a desk</string>
+    <string name="activity_walking">Walking</string>
+    <string name="activity_patient">Handling a patient</string>
+    <string name="activity_machine">Operating machine</string>
+    <string name="activity_other">Other</string>
+
+    <string name="drawer_open">Menu opened</string>
+    <string name="drawer_close">Menu closed</string>
+    <string name="action_settings">Settings</string>
+    <string name="Select_create_notification">Create notification</string>
+    <string name="badPostureDetected">Bad Posture detected!</string>
+    <string name="SelectActivityNotificationText">please select the activity you are doing now</string>
+    <string name="BadPostureTicker">Bad posture</string>
+    <string name="MenuItemSelectedToastMessage"><![CDATA["Menu item selected -> "]]></string>
+    <string name="Bed">Bed</string>
+    <string name="Desk">Desk</string>
+    <string name="Walking">walking</string>
+    <string name="Patient">Patient</string>
+    <string name="Machine">Machine</string>
+    <string name="Other">Other</string>
+    <string name="Activityoverviewtopheadertext">User Overview of activities that can cause lower back pain</string>
+    <string name="ActivityOptionsUserBed">Standing next to a bed</string>
+    <string name="ActivityOptionsUserDesk">Working at a desk</string>
+    <string name="ActivityOptionsUserWalking">Walking</string>
+    <string name="ActivityOptionsUserpatient">Handling a patient</string>
+    <string name="ActivityOptionsUserMachine">Operating machine</string>
+    <string name="ActivityOptionsUserOther">Other</string>
+    <string name="NotifationTitle">Bad Posture detected!</string>
+    <string name="NotificationSubtitle">please select the activity you are doing now</string>
+    <string name="NotificationTicker">Bad posture</string>
+    <string name="YouSelectedToast">"You selected "</string>
+    <string name="NoActivityDataYet">No ativity Data available yet, Use the smart shirt first, and come back here after one day of use</string>
+    <string name="Back">"Back"</string>
+       <string name="info_activity_desk_info">Probeer recht te zitten en tegelijk de natuurlijke krommingen in uw rug te behouden. Zit met uw beide voeten gesteund op de grond (niet met benen over elkaar!). Een hoek van 90 graden in heup, knie, enkel is optimaal.  Uiteraard wil u af en toe uw houding wat veranderen, en dat is prima. Gebruik deze houdingsveranderingen als een pauze voor uw spieren, en let erop om niet langdurig met doorgezakte (gebogen) rug te zitten. "
+       </string>
+        <string name="title_activity_body_posture_info">Body posture info</string>
+    <string name="info_activity_bodyPosture_info">Zorg ervoor dat uw rug zoveel mogelijk de natuurlijke kromming kan behouden. Pas de hoogte van de apparatuur, of van uzelf aan om dit mogelijk te maken. </string>
+        <string name="title_activity_helping_patient_info">More info helping patient</string>
+    <string name="infoHelpingPatient">Probeer uw rug zo recht mogelijk te houden en uw buik-en bekkenbodemspieren licht aan te spannen. Let hierbij wel op dat uw ademhaling normaal blijft. Hou de last zo dicht mogelijk bij uw lichaam. Vermijd steeds de combinatie van een buig- en draaibeweging in de rug.</string>
+    <string name="title_activity_desk_info">More info desk</string>
+    <string name="title_activity_bed_info">More info bed</string>
+    <string name="infoTextBedSide">Zet eerst het bed op de juiste hoogte. Probeer uw lage rug zo recht mogelijk te houden (buig indien nodig in uw heupen). Probeer tijdens het vooroverbuigen uw buik- en bekkenbodemspieren lichtjes aan te spannen, let wel op dat u normaal blijft doorademen. Vermijd zoveel mogelijk om uw rug gelijktijdig te buigen en te draaien.</string>
+    <string name="explaination_what_user_doing">click on a item in the list to select the activity</string>
+    <string name="verbinding_herkend">Yes, serial :-)</string>
+    <string name="overview_large_button_bottom">View overview of today</string>
+    <string name="calibrate_Now">Calibrate now</string>
+    <string name="StopCalibration">Stop calibration</string>
+    <string name="Calibration_button_text">Calibrate now</string>
+    <string name="help_text_calibration">then calibrate the shirt by clicking the button below</string>
+</resources>

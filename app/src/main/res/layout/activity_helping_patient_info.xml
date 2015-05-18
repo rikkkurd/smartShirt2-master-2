@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.polkapolka.bluetooth.le.helpingPatientInfo">
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        android:layout_gravity="center|top"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/infoDesk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Aan het bureau"
+            android:background="@color/myPrimaryDarkColor"/>
+        />
+        <Button
+            android:id="@+id/infoHelpingPatient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="begeleiden patient"
+            android:background="@color/myWindowBackground"/>
+        />
+        <Button
+            android:id="@+id/infoBodyPosture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Lichaams houding"
+            android:background="@color/myPrimaryDarkColor"/>
+        />
+        <Button
+            android:id="@+id/infoBedPosture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Aan het bed werken"
+            android:background="@color/myPrimaryDarkColor"/>
+        />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:layout_marginTop="40dp">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/infoHelpingPatient"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="304dp"
+        android:src="@drawable/helpingpatient"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

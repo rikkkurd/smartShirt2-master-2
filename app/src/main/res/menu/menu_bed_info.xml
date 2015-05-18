@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.polkapolka.bluetooth.le.userOverview">
+    <item android:id="@+id/back_button_to_user_overview"
+        android:title="@string/Back"
+        android:orderInCategory="100"
+        app:showAsAction="always">/</item>/>
+</menu>
